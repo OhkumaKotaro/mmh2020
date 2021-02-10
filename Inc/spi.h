@@ -74,6 +74,7 @@ void UpdataGyro(void);
 
 float MPU6500_read_accel_x( void );
 uint16_t ma700_left_read_data( void );
+uint16_t enc_read_byte(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, uint16_t reg);
 void set_enc(void);
 void get_enc_val(void);
 /* USER CODE END Prototypes */

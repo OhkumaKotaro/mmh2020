@@ -75,3 +75,5 @@ uint32_t maze_step[32][32];   // 歩数マップ
 
 uint16_t enc_l;
 uint16_t enc_r;
+float distance_l;
+float distance_r;

@@ -22,7 +22,7 @@ void machine_init( void )
   failSafe_flag = 0;
   //buzzerSetMonophonic( NORMAL, 100 );
   //HAL_Delay( 101 );
-  MPU6500_init();
+  //MPU6500_init();
   //buzzerSetMonophonic( NORMAL, 100 );
   //HAL_TIM_Encoder_Start( &htim2, TIM_CHANNEL_ALL ); // encoder
   //HAL_TIM_Encoder_Start( &htim8, TIM_CHANNEL_ALL ); // encoder

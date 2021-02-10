@@ -212,4 +212,7 @@ extern uint32_t maze_step[32][32];   // 歩数マップ
 extern uint16_t enc_l;
 extern uint16_t enc_r;
 
+extern float distance_l;
+extern float distance_r;
+
 #endif /* __VARIABLE_H */

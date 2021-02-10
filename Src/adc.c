@@ -54,8 +54,8 @@
 
 extern uint16_t ADCBuff[ADC_CONVERT_DATA_SIZE];     // AD変換の結果を保持するバッファ
 extern uint16_t ADCOffData[ADC_CONVERT_DATA_SIZE];   // AD変換の消した時の値を保持
-extern uint16_t ADCOntData[ADC_CONVERT_DATA_SIZE];   // AD変換の光って??��?��?るとき�???��?��値を保持
-extern int16_t adc_counter;                          // AD変換のタイミングを指??��?��?
+extern uint16_t ADCOntData[ADC_CONVERT_DATA_SIZE];   // AD変換の光って???��?��??��?��?るとき�????��?��??��?��値を保持
+extern int16_t adc_counter;                          // AD変換のタイミングを指???��?��??��?��?
 
 static uint8_t ctr_irled = 0;
 /* USER CODE END 0 */

@@ -47,6 +47,8 @@
 /* USER CODE BEGIN Includes */
 #include "variable.h"
 #include "function.h"
+
+#define DIAAGC 0x3ffc
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -113,8 +115,9 @@ int main(void)
   /* USER CODE BEGIN 2 */
   machine_init();
   set_enc();
-  enc_l=0;
-  enc_r=0;
+  distance_l=0;
+  distance_r=0;
+  printf("distance_l\tdistance_r\r\n");
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -122,7 +125,9 @@ int main(void)
   while (1)
   {
     //MotorControl(100,100);
-    printf("l:%x\tr:%x\r",enc_l,enc_r);
+    get_enc_val();
+    printf("%f\t%f\r",distance_l,distance_r);
+    
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
